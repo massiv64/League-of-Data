@@ -1,0 +1,19 @@
+{
+  "name": "league_of_data",
+  "version": "1.0.0",
+  "description": "g22 Capstone Project, utilizing the Riot Games API to  do cool stuff",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/massiv64/League-of-Data.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/massiv64/League-of-Data/issues"
+  },
+  "homepage": "https://github.com/massiv64/League-of-Data#readme"
+}
