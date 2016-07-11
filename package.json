@@ -18,15 +18,14 @@
   "homepage": "https://github.com/massiv64/League-of-Data#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
-    "connect-flash": "^0.1.1",
-    "dotenv": "^2.0.0",
+    "compression": "^1.6.2",
+    "debug": "^2.2.0",
+    "ejs": "^2.4.2",
     "express": "^4.14.0",
-    "jade": "^1.11.0",
-    "knex": "^0.11.7",
-    "liftoff": "^2.2.1",
     "locus": "^1.2.0",
     "method-override": "^2.3.6",
+    "mongoose": "^4.5.3",
     "morgan": "^1.7.0",
-    "pg": "^6.0.1"
+    "q": "^1.4.1"
   }
 }
