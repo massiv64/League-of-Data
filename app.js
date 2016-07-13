@@ -60,8 +60,7 @@ if (app.get('env') === 'development') {
       });
   });
 } else {
-  // production error handler
-  // no stacktraces leaked to user
+
   app.use(function(err, req, res, next) {
     res.statusCode = err.status;
     res.render('error', {
