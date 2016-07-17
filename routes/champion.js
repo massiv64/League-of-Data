@@ -1,0 +1,11 @@
+"use strict";
+var WebChampionPage = require('../models/web_champion_page.js');
+var WebChampionRoles = require('../models/web_champion_roles.js');
+var WebOverallRoleData = require('../models/web_overall_role_data.js');
+var champList = require('../api_data/champions.json');
+var roleHashTable = require('../logic/role_hash_table.js');
+var produceError = require('../logic/produce_error.js');
+var lowerCaseChamp = require('../logic/lower_case_champ.js');
+var express = require('express');
+var q = require('q');
+var router = express.Router();

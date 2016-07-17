@@ -17,3 +17,18 @@ router.get('/masteries/:id', function(req, res) {
     }
 });
 
+router.get('/summoners/:id', function(req, res) {
+    var id = req.params.id;
+    var match = false;
+    for (var prop in apiData.summoners){
+        if(apiData.summoners.hasOwnProperty(prop) && apiData.summoners[prop].id === Number(id)){
+            res.json(apiData.summoners[prop]);
+            match = true;
+            break;
+        }
+    } 
+    if (!match){
+        res.statusCode = 404;
+        res.send('invalid request');
+    }
+});
