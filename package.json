@@ -23,6 +23,7 @@
     "debug": "^2.2.0",
     "ejs": "^2.4.2",
     "express": "^4.14.0",
+    "favicon": "0.0.2",
     "locus": "^1.2.0",
     "method-override": "^2.3.6",
     "mongoose": "^4.5.3",

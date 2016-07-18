@@ -26,4 +26,4 @@ var webStatisticsPage = new mongoose.Schema({
 });
 
 
-module.exports = mongoose.model('WebStatisticsPage', webStatisticsPage
+module.exports = mongoose.model('WebStatisticsPage', webStatisticsPage)

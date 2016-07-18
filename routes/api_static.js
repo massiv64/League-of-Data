@@ -32,3 +32,6 @@ router.get('/summoners/:id', function(req, res) {
         res.send('invalid request');
     }
 });
+
+
+module.exports = router;
