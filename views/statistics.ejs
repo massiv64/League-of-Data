@@ -1,0 +1,21 @@
+<% include header.ejs %>
+
+
+<div class="container-fluid">
+  <h2 style="margin-top: 35px;
+  margin-bottom: -5px;">Current Patch Statistics</h2>
+  <div class="row" id="stats"  ng-controller="data">
+    <div class="search-sorter" style="display:inline-block;">
+      <input class="matchupSearch" type="text" ng-model="search.title" ng-change="searchUrl()" ng-model-options="{debounce: 40}" style="margin-left:-22px;" placeholder="Filter By Name" />
+    </div>
+    <div style="display:inline-block">
+      Sort Role 
+      <select class="minimum-games" ng-change="chosenRole()" ng-model="roleSort.role" style="padding:5px">
+        <option value="">Show All</option>
+        <option value="Top">Top</option>
+        <option value="Middle">Middle</option>
+        <option value="Support">Support</option>
+        <option value="ADC">ADC</option>
+        <option value="Jungle">Jungle</option>
+      </select>
+    </div>
