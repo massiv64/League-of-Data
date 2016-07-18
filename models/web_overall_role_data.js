@@ -1,4 +1,4 @@
-var mongoose = requiure('mongoose')
+var mongoose = require('mongoose')
 
 var webOverallRoleData = new mongoose.Schema({
 	role: String,

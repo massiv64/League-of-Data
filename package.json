@@ -18,6 +18,7 @@
   "homepage": "https://github.com/massiv64/League-of-Data#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
+    "compress": "^0.99.0",
     "compression": "^1.6.2",
     "debug": "^2.2.0",
     "ejs": "^2.4.2",
